@@ -28,11 +28,22 @@
 //  }
 
 //########## ЗАДАЧА №3 #################
- Console.WriteLine("Введите число");
- int num = int.Parse(Console.ReadLine()!);
- if (num%2 ==0) {
-     Console.WriteLine("Число четное");
- }
- else {
-     Console.WriteLine("Число нечное");
- }
+//  Console.WriteLine("Введите число");
+//  int num = int.Parse(Console.ReadLine()!);
+//  if (num%2 ==0) {
+//      Console.WriteLine("Число четное");
+//  }
+//  else {
+//      Console.WriteLine("Число нечное");
+//  }
+
+// ########## Задача №4 #################
+Console.WriteLine("введите число");
+int num = int.Parse(Console.ReadLine()!);
+int count = 1;
+while (count<=num){
+    if (count%2 ==0){
+        Console.WriteLine($"{count}");
+    }
+    ++count;
+} 
